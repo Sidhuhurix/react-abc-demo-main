@@ -1,0 +1,43 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  /* display: grid; */
+  gap: 25px;
+  grid-template-columns:1fr 1fr 1fr 1fr
+}
+
+img {
+  border-radius: 20px;
+  height: 400px;
+  width: 300px;
+  object-fit: cover;
+
+}
+
+.moviecard {
+  display: grid;
+  width: 300px;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+
+}
+.nam {
+   display: flex;
+   text-align: center;
+   object-fit: cover;
+}
+.h1 {
+  display: flex;
+    justify-content: space-between;
+}
+
+.lin {
+
+  display: grid;
+  justify-content: space-between;
+  grid-row: 1fr 1fr 1fr 1fr ;
+  
+}
